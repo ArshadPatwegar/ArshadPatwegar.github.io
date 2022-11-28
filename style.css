@@ -1,0 +1,41 @@
+body,html{
+    height: 100%;
+    width: 100%;;
+    background: url(background2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    color: gainsboro;
+    font-size: 3rem;
+}
+
+.btn-primary {
+    border-radius: 60px;
+    background-color: darkorange;
+    border-color: darkorange;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.btn-primary:hover{
+    font-weight:700px;
+    background-color: rgb(199, 112, 6);
+    border-color: rgb(199, 112, 6);
+    border-width: 2px;
+    
+
+}
+.buffer{
+    height: 5rem;
+}
+
+hr{
+    max-width: 4rem;
+    border-color:  rgb(199, 112, 6);
+    border-width: 3px;
+    margin: auto;
+    opacity: 100%;
+}
